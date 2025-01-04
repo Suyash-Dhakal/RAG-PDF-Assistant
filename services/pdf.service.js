@@ -1,4 +1,4 @@
-import { embeddings } from "../config/azureConfig";
+import { embeddings } from "../config/azureConfig.js";
 import { MemoryVectorStore } from 'langchain/vectorstores/memory';
 import { CharacterTextSplitter } from 'langchain/text_splitter';
 import { PDFLoader } from '@langchain/community/document_loaders/fs/pdf';

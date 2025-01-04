@@ -1,5 +1,5 @@
-import { llm } from "../config/azureConfig";
-import { loadStore } from "./pdf.service";
+import { llm } from "../config/azureConfig.js";
+import { loadStore } from "./pdf.service.js";
 
 export const query=async (filePath,question)=>{
     const store=await loadStore(filePath);

@@ -6,6 +6,10 @@
     "@langchain/openai": "^0.3.16",
     "dotenv": "^16.4.7",
     "langchain": "^0.3.9",
-    "node": "^23.5.0"
+    "node": "^23.5.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
   }
 }
